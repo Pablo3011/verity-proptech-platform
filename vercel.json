@@ -1,0 +1,11 @@
+{
+  "buildCommand": "pnpm build",
+  "devCommand": "pnpm dev",
+  "installCommand": "pnpm install",
+  "framework": "sveltekit",
+  "outputDirectory": ".svelte-kit",
+  "regions": ["iad1"],
+  "env": {
+    "VITE_API_URL": "@api_url"
+  }
+}
